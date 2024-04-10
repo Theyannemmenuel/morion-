@@ -30,10 +30,12 @@ h1{
 
 
 .board{
-    width: 300px;
+    width: 90%; /* Utiliser une largeur relative */
+    max-width: 399px; /* Définir une largeur maximale pour les grands écrans */
+    margin: 2rem auto; /* Centrer horizontalement avec une marge automatique */
     display: flex;
     flex-wrap: wrap;
-    margin: 4rem;
+    justify-content: center; /* Centrer horizontalement */
 }
 .white{
     color: white;
